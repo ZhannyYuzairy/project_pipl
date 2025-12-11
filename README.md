@@ -89,7 +89,7 @@ Sebelum memulai, pastikan Anda telah menginstal:
 
 ```
 project_pipl/
-├── app/                      # Kode aplikasi
+├── app/                     # Kode aplikasi
 │   ├── Config/              # File konfigurasi
 │   ├── Controllers/         # Penanganan permintaan
 │   ├── Database/            # Migrasi dan seed
@@ -101,7 +101,7 @@ project_pipl/
 │   ├── Views/               # Template tampilan
 │   ├── Routes.php           # Definisi rute
 │   └── Common.php           # Fungsi umum
-├── public/                   # Aset publik
+├── public/                  # Aset publik
 │   ├── js/                  # File JavaScript
 │   ├── uploads/             # Unggahan pengguna
 │   ├── index.php            # Titik masuk
@@ -112,7 +112,7 @@ project_pipl/
 ├── composer.json            # Konfigurasi Composer
 ├── phpunit.xml.dist         # Konfigurasi PHPUnit
 ├── spark                    # Alat CLI CodeIgniter
-└── README.md               # File ini
+└── README.md                # File ini
 ```
 
 ## 💡 Penggunaan
