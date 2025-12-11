@@ -1,0 +1,890 @@
+DEBUG - 2025-12-10 01:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-10 01:14:02 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\Toko_Kuantan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\Toko_Kuantan\system\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `product...', 0)
+#1 C:\laragon\www\Toko_Kuantan\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\laragon\www\Toko_Kuantan\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\laragon\www\Toko_Kuantan\system\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\laragon\www\Toko_Kuantan\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\Toko_Kuantan\system\BaseModel.php(1025): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\laragon\www\Toko_Kuantan\system\Model.php(860): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\laragon\www\Toko_Kuantan\app\Controllers\Kasir\Pos.php(322): CodeIgniter\Model->update()
+#8 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(933): App\Controllers\Kasir\Pos->checkout()
+#9 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\Pos))
+#10 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Toko_Kuantan\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Toko_Kuantan\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\Toko_Kuantan\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-12-10 01:14:02 --> Checkout gagal: Unknown column 'updated_at' in 'field list'
+DEBUG - 2025-12-10 01:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 01:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-10 02:09:17 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\Toko_Kuantan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\Toko_Kuantan\system\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `product...', 0)
+#1 C:\laragon\www\Toko_Kuantan\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\laragon\www\Toko_Kuantan\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\laragon\www\Toko_Kuantan\system\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\laragon\www\Toko_Kuantan\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\Toko_Kuantan\system\BaseModel.php(1025): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\laragon\www\Toko_Kuantan\system\Model.php(860): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\laragon\www\Toko_Kuantan\app\Controllers\Kasir\Pos.php(370): CodeIgniter\Model->update()
+#8 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(933): App\Controllers\Kasir\Pos->checkout()
+#9 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\Pos))
+#10 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Toko_Kuantan\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Toko_Kuantan\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\Toko_Kuantan\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-12-10 02:09:17 --> Checkout gagal: Unknown column 'updated_at' in 'field list'
+DEBUG - 2025-12-10 02:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-10 02:09:20 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\Toko_Kuantan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\Toko_Kuantan\system\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `product...', 0)
+#1 C:\laragon\www\Toko_Kuantan\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\laragon\www\Toko_Kuantan\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\laragon\www\Toko_Kuantan\system\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\laragon\www\Toko_Kuantan\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\Toko_Kuantan\system\BaseModel.php(1025): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\laragon\www\Toko_Kuantan\system\Model.php(860): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\laragon\www\Toko_Kuantan\app\Controllers\Kasir\Pos.php(370): CodeIgniter\Model->update()
+#8 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(933): App\Controllers\Kasir\Pos->checkout()
+#9 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\Pos))
+#10 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Toko_Kuantan\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Toko_Kuantan\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\Toko_Kuantan\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-12-10 02:09:20 --> Checkout gagal: Unknown column 'updated_at' in 'field list'
+DEBUG - 2025-12-10 02:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-10 02:15:05 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\Toko_Kuantan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\Toko_Kuantan\system\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `product...', 0)
+#1 C:\laragon\www\Toko_Kuantan\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\laragon\www\Toko_Kuantan\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\laragon\www\Toko_Kuantan\system\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\laragon\www\Toko_Kuantan\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\Toko_Kuantan\system\BaseModel.php(1025): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\laragon\www\Toko_Kuantan\system\Model.php(860): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\laragon\www\Toko_Kuantan\app\Controllers\Kasir\Pos.php(383): CodeIgniter\Model->update()
+#8 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(933): App\Controllers\Kasir\Pos->checkout()
+#9 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\Pos))
+#10 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Toko_Kuantan\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Toko_Kuantan\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\Toko_Kuantan\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-12-10 02:15:05 --> Checkout gagal: Unknown column 'updated_at' in 'field list'
+DEBUG - 2025-12-10 02:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-10 02:41:27 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\Toko_Kuantan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\Toko_Kuantan\system\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `product...', 0)
+#1 C:\laragon\www\Toko_Kuantan\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\laragon\www\Toko_Kuantan\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\laragon\www\Toko_Kuantan\system\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\laragon\www\Toko_Kuantan\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\Toko_Kuantan\system\BaseModel.php(1025): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\laragon\www\Toko_Kuantan\system\Model.php(860): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\laragon\www\Toko_Kuantan\app\Controllers\Kasir\Pos.php(358): CodeIgniter\Model->update()
+#8 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(933): App\Controllers\Kasir\Pos->checkout()
+#9 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\Pos))
+#10 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Toko_Kuantan\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Toko_Kuantan\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\Toko_Kuantan\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-12-10 02:41:27 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\Toko_Kuantan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\Toko_Kuantan\system\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `product...', 0)
+#1 C:\laragon\www\Toko_Kuantan\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\laragon\www\Toko_Kuantan\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\laragon\www\Toko_Kuantan\system\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\laragon\www\Toko_Kuantan\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\Toko_Kuantan\system\BaseModel.php(1025): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\laragon\www\Toko_Kuantan\system\Model.php(860): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\laragon\www\Toko_Kuantan\app\Controllers\Kasir\Pos.php(358): CodeIgniter\Model->update()
+#8 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(933): App\Controllers\Kasir\Pos->checkout()
+#9 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\Pos))
+#10 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Toko_Kuantan\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Toko_Kuantan\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\Toko_Kuantan\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-12-10 02:41:27 --> Checkout gagal: {"code":0,"message":""}
+DEBUG - 2025-12-10 02:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-10 02:42:15 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\Toko_Kuantan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\Toko_Kuantan\system\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `product...', 0)
+#1 C:\laragon\www\Toko_Kuantan\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\laragon\www\Toko_Kuantan\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\laragon\www\Toko_Kuantan\system\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\laragon\www\Toko_Kuantan\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\Toko_Kuantan\system\BaseModel.php(1025): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\laragon\www\Toko_Kuantan\system\Model.php(860): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\laragon\www\Toko_Kuantan\app\Controllers\Kasir\Pos.php(358): CodeIgniter\Model->update()
+#8 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(933): App\Controllers\Kasir\Pos->checkout()
+#9 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\Pos))
+#10 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Toko_Kuantan\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Toko_Kuantan\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\Toko_Kuantan\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-12-10 02:42:15 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\Toko_Kuantan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\Toko_Kuantan\system\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `product...', 0)
+#1 C:\laragon\www\Toko_Kuantan\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\laragon\www\Toko_Kuantan\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\laragon\www\Toko_Kuantan\system\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\laragon\www\Toko_Kuantan\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\Toko_Kuantan\system\BaseModel.php(1025): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\laragon\www\Toko_Kuantan\system\Model.php(860): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\laragon\www\Toko_Kuantan\app\Controllers\Kasir\Pos.php(358): CodeIgniter\Model->update()
+#8 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(933): App\Controllers\Kasir\Pos->checkout()
+#9 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\Pos))
+#10 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Toko_Kuantan\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Toko_Kuantan\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\Toko_Kuantan\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-12-10 02:42:15 --> Checkout gagal: {"code":0,"message":""}
+DEBUG - 2025-12-10 02:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-10 02:50:36 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\Toko_Kuantan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\Toko_Kuantan\system\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `product...', 0)
+#1 C:\laragon\www\Toko_Kuantan\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\laragon\www\Toko_Kuantan\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\laragon\www\Toko_Kuantan\system\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\laragon\www\Toko_Kuantan\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\Toko_Kuantan\system\BaseModel.php(1025): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\laragon\www\Toko_Kuantan\system\Model.php(860): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\laragon\www\Toko_Kuantan\app\Controllers\Kasir\Pos.php(377): CodeIgniter\Model->update()
+#8 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(933): App\Controllers\Kasir\Pos->checkout()
+#9 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\Pos))
+#10 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Toko_Kuantan\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Toko_Kuantan\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\Toko_Kuantan\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-12-10 02:50:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: kasir/pos/checkout]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `products` SET `stok` = stok - 1, `updated_at` = :updated_at:
+WHERE `id` = :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1025): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH\Model.php(860): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH\Controllers\Kasir\Pos.php(377): CodeIgniter\Model->update()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\Pos->checkout()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\Pos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-10 02:50:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `products` SET `stok` = stok - 1, `updated_at` = \'2025-12-10 02:50:36\'
+WHERE `id` = 13')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `products` SET `stok` = stok - 1, `updated_at` = \'2025-12-10 02:50:36\'
+WHERE `id` = 13')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `products` SET `stok` = stok - 1, `updated_at` = :updated_at:
+WHERE `id` = :id:', [...], false)
+ 4 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1025): CodeIgniter\Model->doUpdate(null, [...])
+ 6 SYSTEMPATH\Model.php(860): CodeIgniter\BaseModel->update(null, [...])
+ 7 APPPATH\Controllers\Kasir\Pos.php(377): CodeIgniter\Model->update()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\Pos->checkout()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\Pos))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-10 02:50:36 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `products` SET `stok` = stok - 1, `updated_at` = \'2025-12-10 02:50:36\'
+WHERE `id` = 13', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `products` SET `stok` = stok - 1, `updated_at` = \'2025-12-10 02:50:36\'
+WHERE `id` = 13')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `products` SET `stok` = stok - 1, `updated_at` = \'2025-12-10 02:50:36\'
+WHERE `id` = 13')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `products` SET `stok` = stok - 1, `updated_at` = :updated_at:
+WHERE `id` = :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1025): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH\Model.php(860): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH\Controllers\Kasir\Pos.php(377): CodeIgniter\Model->update()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\Pos->checkout()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\Pos))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-10 02:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-10 02:53:18 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\Toko_Kuantan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\Toko_Kuantan\system\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `product...', 0)
+#1 C:\laragon\www\Toko_Kuantan\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\laragon\www\Toko_Kuantan\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\laragon\www\Toko_Kuantan\system\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\laragon\www\Toko_Kuantan\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\Toko_Kuantan\system\BaseModel.php(1025): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\laragon\www\Toko_Kuantan\system\Model.php(860): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\laragon\www\Toko_Kuantan\app\Controllers\Kasir\Pos.php(377): CodeIgniter\Model->update()
+#8 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(933): App\Controllers\Kasir\Pos->checkout()
+#9 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\Pos))
+#10 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Toko_Kuantan\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Toko_Kuantan\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\Toko_Kuantan\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-12-10 02:53:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: kasir/pos/checkout]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `products` SET `stok` = stok - 1, `updated_at` = :updated_at:
+WHERE `id` = :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1025): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH\Model.php(860): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH\Controllers\Kasir\Pos.php(377): CodeIgniter\Model->update()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\Pos->checkout()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\Pos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-10 02:53:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `products` SET `stok` = stok - 1, `updated_at` = \'2025-12-10 02:53:18\'
+WHERE `id` = 13')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `products` SET `stok` = stok - 1, `updated_at` = \'2025-12-10 02:53:18\'
+WHERE `id` = 13')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `products` SET `stok` = stok - 1, `updated_at` = :updated_at:
+WHERE `id` = :id:', [...], false)
+ 4 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1025): CodeIgniter\Model->doUpdate(null, [...])
+ 6 SYSTEMPATH\Model.php(860): CodeIgniter\BaseModel->update(null, [...])
+ 7 APPPATH\Controllers\Kasir\Pos.php(377): CodeIgniter\Model->update()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\Pos->checkout()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\Pos))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-10 02:53:18 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `products` SET `stok` = stok - 1, `updated_at` = \'2025-12-10 02:53:18\'
+WHERE `id` = 13', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `products` SET `stok` = stok - 1, `updated_at` = \'2025-12-10 02:53:18\'
+WHERE `id` = 13')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `products` SET `stok` = stok - 1, `updated_at` = \'2025-12-10 02:53:18\'
+WHERE `id` = 13')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `products` SET `stok` = stok - 1, `updated_at` = :updated_at:
+WHERE `id` = :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1025): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH\Model.php(860): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH\Controllers\Kasir\Pos.php(377): CodeIgniter\Model->update()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\Pos->checkout()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\Pos))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-10 02:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-10 02:55:27 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\Toko_Kuantan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\Toko_Kuantan\system\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `product...', 0)
+#1 C:\laragon\www\Toko_Kuantan\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\laragon\www\Toko_Kuantan\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\laragon\www\Toko_Kuantan\system\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\laragon\www\Toko_Kuantan\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\Toko_Kuantan\system\BaseModel.php(1025): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\laragon\www\Toko_Kuantan\system\Model.php(860): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\laragon\www\Toko_Kuantan\app\Controllers\Kasir\Pos.php(377): CodeIgniter\Model->update()
+#8 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(933): App\Controllers\Kasir\Pos->checkout()
+#9 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\Pos))
+#10 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Toko_Kuantan\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Toko_Kuantan\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\Toko_Kuantan\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-12-10 02:55:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: kasir/pos/checkout]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `products` SET `stok` = stok - 1, `updated_at` = :updated_at:
+WHERE `id` = :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1025): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH\Model.php(860): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH\Controllers\Kasir\Pos.php(377): CodeIgniter\Model->update()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\Pos->checkout()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\Pos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-10 02:55:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `products` SET `stok` = stok - 1, `updated_at` = \'2025-12-10 02:55:27\'
+WHERE `id` = 13')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `products` SET `stok` = stok - 1, `updated_at` = \'2025-12-10 02:55:27\'
+WHERE `id` = 13')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `products` SET `stok` = stok - 1, `updated_at` = :updated_at:
+WHERE `id` = :id:', [...], false)
+ 4 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1025): CodeIgniter\Model->doUpdate(null, [...])
+ 6 SYSTEMPATH\Model.php(860): CodeIgniter\BaseModel->update(null, [...])
+ 7 APPPATH\Controllers\Kasir\Pos.php(377): CodeIgniter\Model->update()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\Pos->checkout()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\Pos))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-10 02:55:27 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `products` SET `stok` = stok - 1, `updated_at` = \'2025-12-10 02:55:27\'
+WHERE `id` = 13', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `products` SET `stok` = stok - 1, `updated_at` = \'2025-12-10 02:55:27\'
+WHERE `id` = 13')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `products` SET `stok` = stok - 1, `updated_at` = \'2025-12-10 02:55:27\'
+WHERE `id` = 13')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `products` SET `stok` = stok - 1, `updated_at` = :updated_at:
+WHERE `id` = :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1025): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH\Model.php(860): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH\Controllers\Kasir\Pos.php(377): CodeIgniter\Model->update()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\Pos->checkout()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\Pos))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-10 02:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-10 02:56:31 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\Toko_Kuantan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\Toko_Kuantan\system\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `product...', 0)
+#1 C:\laragon\www\Toko_Kuantan\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\laragon\www\Toko_Kuantan\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\laragon\www\Toko_Kuantan\system\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\laragon\www\Toko_Kuantan\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\Toko_Kuantan\system\BaseModel.php(1025): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\laragon\www\Toko_Kuantan\system\Model.php(860): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\laragon\www\Toko_Kuantan\app\Controllers\Kasir\Pos.php(377): CodeIgniter\Model->update()
+#8 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(933): App\Controllers\Kasir\Pos->checkout()
+#9 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\Pos))
+#10 C:\laragon\www\Toko_Kuantan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Toko_Kuantan\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Toko_Kuantan\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\Toko_Kuantan\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-12-10 02:56:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: kasir/pos/checkout]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `products` SET `stok` = stok - 1, `updated_at` = :updated_at:
+WHERE `id` = :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1025): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH\Model.php(860): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH\Controllers\Kasir\Pos.php(377): CodeIgniter\Model->update()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\Pos->checkout()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\Pos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-10 02:56:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `products` SET `stok` = stok - 1, `updated_at` = \'2025-12-10 02:56:31\'
+WHERE `id` = 13')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `products` SET `stok` = stok - 1, `updated_at` = \'2025-12-10 02:56:31\'
+WHERE `id` = 13')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `products` SET `stok` = stok - 1, `updated_at` = :updated_at:
+WHERE `id` = :id:', [...], false)
+ 4 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1025): CodeIgniter\Model->doUpdate(null, [...])
+ 6 SYSTEMPATH\Model.php(860): CodeIgniter\BaseModel->update(null, [...])
+ 7 APPPATH\Controllers\Kasir\Pos.php(377): CodeIgniter\Model->update()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\Pos->checkout()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\Pos))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-10 02:56:31 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `products` SET `stok` = stok - 1, `updated_at` = \'2025-12-10 02:56:31\'
+WHERE `id` = 13', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `products` SET `stok` = stok - 1, `updated_at` = \'2025-12-10 02:56:31\'
+WHERE `id` = 13')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `products` SET `stok` = stok - 1, `updated_at` = \'2025-12-10 02:56:31\'
+WHERE `id` = 13')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `products` SET `stok` = stok - 1, `updated_at` = :updated_at:
+WHERE `id` = :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1025): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH\Model.php(860): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH\Controllers\Kasir\Pos.php(377): CodeIgniter\Model->update()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\Pos->checkout()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\Pos))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-10 02:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 02:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 03:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 12:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 12:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 12:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 12:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 12:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 12:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 12:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 12:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 12:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 12:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 12:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 12:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 12:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 12:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 12:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 12:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 12:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 12:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 12:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 12:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 12:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 12:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 12:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 12:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 13:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-10 14:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

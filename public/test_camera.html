@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Test Kamera</title>
+</head>
+<body>
+    <h3>Test Kamera</h3>
+    <video id="video" width="320" height="240" autoplay></video>
+    <script>
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then(stream => {
+                const video = document.getElementById('video');
+                video.srcObject = stream;
+            })
+            .catch(err => {
+                alert('Gagal akses kamera: ' + err);
+                console.error(err);
+            });
+    </script>
+</body>
+</html>
