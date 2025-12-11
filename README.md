@@ -1,10 +1,10 @@
-# Project PIPL
+# Toko Z&Z - Point of Sale (POS) System
 
-Proyek aplikasi web berbasis CodeIgniter 4 dengan fitur lengkap untuk pemrosesan gambar, manajemen database, dan integrasi layanan web.
+Aplikasi Kasir (Point of Sale) berbasis web modern yang dirancang untuk membantu operasional toko ritel. Aplikasi ini mencakup manajemen stok, transaksi kasir real-time, pengelolaan karyawan, hingga laporan keuangan laba rugi otomatis.
 
 ## 📋 Daftar Isi
 
-- [Fitur](#fitur)
+- [Fitur Utama](#fitur-utama)
 - [Teknologi yang Digunakan](#teknologi-yang-digunakan)
 - [Prasyarat](#prasyarat)
 - [Instalasi](#instalasi)
@@ -13,149 +13,161 @@ Proyek aplikasi web berbasis CodeIgniter 4 dengan fitur lengkap untuk pemrosesan
 - [Kontribusi](#kontribusi)
 - [Lisensi](#lisensi)
 
-## ✨ Fitur
+## ✨ Fitur Utama
 
-- **Framework CodeIgniter 4**: Framework PHP modern dengan arsitektur MVC
-- **Pemrosesan Gambar**: Fungsionalitas kamera dan unggah gambar
-- **API RESTful**: Sistem routing bawaan untuk endpoint API
-- **Manajemen Database**: Model database terintegrasi dan migrasi
-- **Autentikasi & Filter**: Filter keamanan dan penanganan permintaan
-- **Lokalisasi**: Dukungan multi-bahasa melalui file Language
-- **Pengujian**: Integrasi PHPUnit untuk unit testing
+### 👑 Panel Owner (Admin)
+- **Dashboard Interaktif**: Ringkasan omzet harian, jumlah transaksi, dan produk aktif secara real-time.
+- **Manajemen Produk**: Tambah, edit, dan hapus data barang lengkap dengan fitur Barcode, Harga Beli, Harga Jual, dan Stok.
+- **Manajemen Kasir**: Kelola akun pengguna kasir, reset password, dan pengaturan status aktif/non-aktif.
+- **Laporan Stok**: Monitoring ketersediaan barang dengan estimasi nilai aset.
+- **Laporan Laba & Rugi**: Analisis keuangan otomatis berdasarkan rentang tanggal, menampilkan Total Penjualan, HPP (Modal), dan Laba Bersih.
+- **Visualisasi Data**: Bar progress untuk perbandingan visual antara Penjualan vs Modal.
+
+### 🛒 Panel Kasir (POS)
+- **Point of Sale Modern**: Antarmuka kasir yang responsif dan mudah digunakan.
+- **Scan Barcode**: Dukungan input barang menggunakan scanner barcode atau pencarian manual.
+- **Keranjang Belanja**: Kalkulasi subtotal otomatis.
+- **Riwayat Transaksi**: Lihat dan cetak ulang struk penjualan harian.
+- **Dashboard Kasir**: Ringkasan kinerja kasir pribadi (Total penjualan shift saat ini).
 
 ## 🛠 Teknologi yang Digunakan
 
-- **Framework**: CodeIgniter 4
+- **Framework**: CodeIgniter 4 (PHP Framework)
 - **Bahasa Pemrograman**: PHP 7.4+
-- **Manajer Paket**: Composer
-- **Pengujian**: PHPUnit
-- **Server Web**: Apache (dengan dukungan .htaccess)
-- **Database**: MySQL/MariaDB (dapat dikonfigurasi)
-- **Frontend**: HTML5, JavaScript, CSS3
+- **Database**: MySQL / MariaDB
+- **Frontend**: HTML5, CSS3 (Custom UI / Bootstrap), JavaScript
+- **Server**: Apache (XAMPP/Laragon)
+- **Tools**: Composer, Git
 
 ## 📋 Prasyarat
 
-Sebelum memulai, pastikan Anda telah menginstal:
+Sebelum memulai, pastikan server lokal Anda memiliki:
 
-- PHP 7.4 atau lebih tinggi
-- Composer
-- MySQL/MariaDB 5.7 atau lebih tinggi
-- Apache web server dengan mod_rewrite diaktifkan
-- Node.js (opsional, untuk tooling frontend)
+- PHP versi 7.4 atau lebih tinggi (Disarankan PHP 8.1)
+- Composer (Terinstal global)
+- MySQL/MariaDB
+- Ekstensi PHP `intl` dan `mbstring` diaktifkan
 
 ## 🚀 Instalasi
 
 1. **Clone repositori**
    ```bash
-   git clone https://github.com/ZhannyYuzairy/project_pipl.git
+   git clone [https://github.com/ZhannyYuzairy/project_pipl.git](https://github.com/ZhannyYuzairy/project_pipl.git)
    cd project_pipl
-   ```
+````
 
-2. **Instal dependensi**
-   ```bash
-   composer install
-   ```
+2.  **Instal dependensi**
 
-3. **Konfigurasi lingkungan**
-   ```bash
-   cp .env.example .env
-   ```
-   Edit `.env` dan konfigurasi kredensial database Anda:
-   ```
-   database.default.hostname = localhost
-   database.default.database = project_pipl
-   database.default.username = root
-   database.default.password = password_anda
-   ```
+    ```bash
+    composer install
+    ```
 
-4. **Jalankan migrasi database**
-   ```bash
-   php spark migrate
-   ```
+3.  **Konfigurasi Environment**
+    Salin file contoh konfigurasi:
 
-5. **Atur izin file**
-   ```bash
-   chmod -R 755 writable/
-   chmod -R 755 public/uploads/
-   ```
+    ```bash
+    cp .env.example .env
+    ```
 
-6. **Mulai server pengembangan**
-   ```bash
-   php spark serve
-   ```
-   Akses aplikasi di `http://localhost:8080`
+    Buka file `.env` dan sesuaikan koneksi database:
+
+    ```ini
+    CI_ENVIRONMENT = development
+
+    database.default.hostname = localhost
+    database.default.database = db_toko_zz
+    database.default.username = root
+    database.default.password =
+    database.default.DBDriver = MySQLi
+    ```
+
+4.  **Setup Database**
+    Jalankan migrasi untuk membuat tabel yang diperlukan:
+
+    ```bash
+    php spark migrate
+    php spark db:seed DemoUserSeeder
+    ```
+
+
+5.  **Jalankan Server**
+
+    ```bash
+    php spark serve
+    ```
+
+    Akses aplikasi di browser melalui `http://localhost:8080`.
 
 ## 📁 Struktur Proyek
 
-```
-project_pipl/
-├── app/                     # Kode aplikasi
-│   ├── Config/              # File konfigurasi
-│   ├── Controllers/         # Penanganan permintaan
-│   ├── Database/            # Migrasi dan seed
-│   ├── Filters/             # Filter permintaan/respons
-│   ├── Helpers/             # Fungsi helper
-│   ├── Language/            # File lokalisasi
-│   ├── Libraries/           # Perpustakaan kustom
-│   ├── Models/              # Model database
-│   ├── Views/               # Template tampilan
-│   ├── Routes.php           # Definisi rute
-│   └── Common.php           # Fungsi umum
-├── public/                  # Aset publik
-│   ├── js/                  # File JavaScript
-│   ├── uploads/             # Unggahan pengguna
-│   ├── index.php            # Titik masuk
-│   └── robots.txt           # File SEO
-├── system/                  # File inti CodeIgniter
-├── tests/                   # Unit testing
-├── writable/                # Direktori yang dapat ditulis
-├── composer.json            # Konfigurasi Composer
-├── phpunit.xml.dist         # Konfigurasi PHPUnit
-├── spark                    # Alat CLI CodeIgniter
-└── README.md                # File ini
+```text
+toko-zz/
+├── app/
+│   ├── Controllers/      # Logika Owner & Kasir
+│   ├── Database/         # Migrasi struktur tabel
+│   ├── Models/           # Model data (Produk, Transaksi, User)
+│   ├── Views/            # Antarmuka (Dashboard, POS, Laporan)
+│   └── Config/           # Konfigurasi aplikasi
+├── public/               # Aset publik
+│   ├── css/              # Stylesheet
+│   ├── js/               # Skrip interaksi (Ajax/POS logic)
+│   └── uploads/          # Gambar produk (jika ada)
+├── writable/             # Log & Cache
+├── .env                  # Variabel lingkungan
+└── spark                 # CLI Tool CodeIgniter
 ```
 
 ## 💡 Penggunaan
 
-### Menjalankan Aplikasi
+### Login
 
-```bash
-# Server pengembangan
-php spark serve
+  - **Owner**: Gunakan akun administrator untuk mengakses manajemen penuh.
+  - **Kasir**: Gunakan akun kasir untuk mengakses fitur POS.
 
-# Build produksi (jika berlaku)
-# Konfigurasi web server untuk menunjuk ke direktori public/
-```
+### Alur Transaksi (Kasir)
+
+1.  Buka menu **POS Kasir**.
+2.  Scan barcode produk atau ketik nama barang di kolom pencarian.
+3.  Masukkan jumlah (Qty) dan tekan `Enter` atau tombol **Tambah ke cart**.
+4.  Masukkan nominal uang yang diterima pelanggan.
+5.  Tekan **Selesaikan transaksi & cetak struk**.
+
+### Melihat Laporan (Owner)
+
+1.  Masuk ke menu **Laba & Rugi**.
+2.  Pilih rentang tanggal (Mulai - Akhir).
+3.  Klik **Terapkan Filter** untuk melihat kalkulasi profit.
+4.  Klik **Export PDF** untuk mengunduh laporan.
 
 ## 🤝 Kontribusi
 
-Kontribusi sangat diterima! Silakan ikuti langkah-langkah berikut:
+Kontribusi untuk pengembangan fitur baru atau perbaikan bug sangat diterima\!
 
-1. Fork repositori
-2. Buat branch fitur Anda (`git checkout -b fitur/fitur-luar-biasa`)
-3. Komit perubahan Anda (`git commit -m 'Tambah fitur luar biasa'`)
-4. Push ke branch (`git push origin fitur/fitur-luar-biasa`)
-5. Buka Pull Request
-
-### Standar Kode
-
-- Ikuti standar kode PHP PSR-12
-- Tulis unit test untuk fitur baru
-- Pastikan semua test lolos sebelum mengirim PR
-- Perbarui README jika diperlukan
+1.  Fork repositori ini.
+2.  Buat branch fitur (`git checkout -b fitur-baru`).
+3.  Komit perubahan (`git commit -m 'Menambahkan fitur diskon'`).
+4.  Push ke branch (`git push origin fitur-baru`).
+5.  Buat Pull Request.
 
 ## 📄 Lisensi
 
-Proyek ini dilisensikan di bawah Lisensi MIT - lihat file [LICENSE](LICENSE) untuk detail.
+Proyek ini didistribusikan di bawah lisensi MIT.
 
-```
+```text
 MIT License
 
-Hak Cipta (c) 2024 Project PIPL Contributors
+Copyright (c) 2025 Toko Z&Z
 
-Dengan ini, izin diberikan secara gratis kepada siapa pun yang mendapatkan
-salinan dari perangkat lunak ini dan file dokumentasi terkait (\"Perangkat Lunak\"), 
-untuk menangani Perangkat Lunak tanpa batasan, termasuk namun tidak terbatas pada 
-hak untuk menggunakan, menyalin, memodifikasi, menggabungkan, menerbitkan, 
-mendistribusikan, mensublisensikan, dan/atau menjual salinan Perangkat Lunak.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+```
+
+```
 ```
