@@ -47,7 +47,7 @@ Sebelum memulai, pastikan Anda telah menginstal:
 
 1. **Clone repositori**
    ```bash
-   git clone https://github.com/username-anda/project_pipl.git
+   git clone https://github.com/ZhannyYuzairy/project_pipl.git
    cd project_pipl
    ```
 
