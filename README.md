@@ -85,10 +85,8 @@ Sebelum memulai, pastikan server lokal Anda memiliki:
 
     ```bash
     php spark migrate
-    php spark db:seed MainSeeder
+    php spark db:seed DemoUserSeeder
     ```
-
-    *(Catatan: Sesuaikan nama seeder jika Anda menggunakan data dummy awal)*
 
 5.  **Jalankan Server**
 
@@ -101,7 +99,7 @@ Sebelum memulai, pastikan server lokal Anda memiliki:
 ## 📁 Struktur Proyek
 
 ```text
-toko-zz/
+POS-zz/
 ├── app/
 │   ├── Controllers/      # Logika Owner & Kasir
 │   ├── Database/         # Migrasi struktur tabel
@@ -167,7 +165,4 @@ furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
-```
-
-```
 ```
