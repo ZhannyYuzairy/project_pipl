@@ -53,8 +53,7 @@ Sebelum memulai, pastikan server lokal Anda memiliki:
 1. **Clone repositori**
    ```bash
    git clone [https://github.com/ZhannyYuzairy/project_pipl.git](https://github.com/ZhannyYuzairy/project_pipl.git)
-   cd project_pipl
-````
+   cd toko-zz-pos
 
 2.  **Instal dependensi**
 
@@ -86,9 +85,10 @@ Sebelum memulai, pastikan server lokal Anda memiliki:
 
     ```bash
     php spark migrate
-    php spark db:seed DemoUserSeeder
+    php spark db:seed MainSeeder
     ```
 
+    *(Catatan: Sesuaikan nama seeder jika Anda menggunakan data dummy awal)*
 
 5.  **Jalankan Server**
 
